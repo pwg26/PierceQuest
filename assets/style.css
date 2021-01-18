@@ -1,4 +1,4 @@
-.backround {
+.backround-home {
   background: url(images/looking.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -6,22 +6,16 @@
   height: auto;
 }
 
-.backround-about {
-  background-color: turquoise;
+.backround-contact {
+  background-color: rgb(41, 223, 236);
 }
 
-.about-me-main {
-  box-sizing: border-box;
-  background-color: white;
-  margin-top: 1%;
-}
-
-.index-main {
-  box-sizing: border-box;
-  background-color: white;
-  margin-top: 1%;
-  margin-left: 0.25%;
-  margin-right: 0.2%;
+.backround-por {
+  background: url(images/porfolio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
 }
 
 .pics {
@@ -36,7 +30,3 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
-/* .pics-pro {
-  max-width: 50px;
-  max-height: 50px; */
