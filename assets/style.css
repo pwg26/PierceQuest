@@ -1,3 +1,22 @@
 .backround {
-  background-image: url(images/looking.jpg);
+  background: url(images/looking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-me-main {
+  box-sizing: border-box;
+  background-color: red;
+}
+
+.index-main {
+  box-sizing: border-box;
+  background-color: white;
+  margin-top: 2%;
+}
+
+.text {
+  color: white;
 }
