@@ -13,13 +13,15 @@
 .about-me-main {
   box-sizing: border-box;
   background-color: white;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .index-main {
   box-sizing: border-box;
   background-color: white;
   margin-top: 1%;
+  margin-left: 0.25%;
+  margin-right: 0.2%;
 }
 
 .pics {
