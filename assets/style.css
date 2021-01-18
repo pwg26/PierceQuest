@@ -6,9 +6,13 @@
   height: auto;
 }
 
+.backround-about {
+  background-color: turquoise;
+}
+
 .about-me-main {
   box-sizing: border-box;
-  background-color: red;
+  background-color: white;
   margin-top: 2%;
 }
 
@@ -18,6 +22,6 @@
   margin-top: 2%;
 }
 
-.text {
-  color: white;
+.pics {
+  margin-bottom: 3%;
 }
