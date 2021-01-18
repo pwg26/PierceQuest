@@ -19,9 +19,22 @@
 .index-main {
   box-sizing: border-box;
   background-color: white;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .pics {
   margin-bottom: 3%;
 }
+
+.profolio-cards {
+  margin: 100%;
+}
+
+.card {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* .pics-pro {
+  max-width: 50px;
+  max-height: 50px; */
