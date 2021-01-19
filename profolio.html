@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <!-- Required meta tags -->
@@ -11,107 +11,116 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
     <!-- my style sheet -->
     <link rel="stylesheet" href="assets/style.css">
 
     <title>Profolio</title>
 </head>
 
-<body class="backround-por">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Pierce</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-me.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="profolio.html">Profolio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Travel
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-me.html">Contact</a>
-                    </li>
-                    </li>
-                </ul>
+<body class="d-flex flex-column h-100 backround-por">
+    <!-- Nav Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Pierce</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-me.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="profolio.html">Profolio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Travel
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-me.html">Contact</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
 
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 mt-2 mb-2 bg-white">
-                <h1 class="text-center">Porfolio</h1>
+    <!-- Section Content -->
+    <main>
+        <section class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-sm-3 mt-4 mb-2 bg-white">
+                    <h1 class="text-center">Porfolio</h1>
+                </div>
             </div>
-
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/work-in-progress.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 1</h5>
-                        <p class="card-text">Check back later....</p>
-                        <a href="#" class="btn btn-primary">link to project</a>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/work-in-progress.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Check back later....</p>
+                            <a href="#" class="btn btn-primary">link to project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/work-in-progress.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Check back later....</p>
+                            <a href="#" class="btn btn-primary">link to project</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/work-in-progress.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 2</h5>
-                        <p class="card-text">Check back later....</p>
-                        <a href="#" class="btn btn-primary">link to project</a>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/work-in-progress.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Check back later....</p>
+                            <a href="#" class="btn btn-primary">link to project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/work-in-progress.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 4</h5>
+                            <p class="card-text">Check back later....</p>
+                            <a href="#" class="btn btn-primary">link to project</a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">Made by Pierce & Co cira 2020</span>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/work-in-progress.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 3</h5>
-                        <p class="card-text">Check back later....</p>
-                        <a href="#" class="btn btn-primary">link to project</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/work-in-progress.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 4</h5>
-                        <p class="card-text">Check back later....</p>
-                        <a href="#" class="btn btn-primary">link to project</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
+    </footer>
 
 
 
@@ -130,8 +139,7 @@
 
 
 
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
 
