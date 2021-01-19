@@ -19,7 +19,7 @@
 }
 
 .profolio-cards {
-  margin: 100%;
+  max-width: 50%;
 }
 
 .card {
