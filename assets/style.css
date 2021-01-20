@@ -1,3 +1,4 @@
+/* Home backround */
 .backround-home {
   background: url(images/looking.jpg);
   background-repeat: no-repeat;
@@ -6,26 +7,32 @@
   height: auto;
 }
 
+/* contact backround */
 .backround-contact {
   background-color: rgb(236, 233, 41);
 }
 
+/* porfolio backround */
 .backround-por {
   background-color: rgb(106, 6, 236);
 }
 
+/* travel backround */
 .backround-tra {
   background-color: rgb(41, 223, 236);
 }
 
+/* formating for pictures in about */
 .pics-about {
   margin-bottom: 3%;
 }
 
+/* formating for the carousels in travel sections*/
 .carousel .carousel-item {
-  height: 500px;
+  min-height: 500px;
 }
 
+/* formating the images with the cards and carousels within the traval sections */
 .carousel-item .img-fluid {
   object-fit: cover;
   top: 0;
@@ -34,11 +41,8 @@
   width: 100%;
 }
 
+/* formating in cards for profolio */
 .card {
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
-
-/* main > .container {
-  padding: 60px 15px 0;
-} */
