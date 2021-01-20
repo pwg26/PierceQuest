@@ -7,19 +7,31 @@
 }
 
 .backround-contact {
-  background-color: rgb(41, 223, 236);
+  background-color: rgb(236, 233, 41);
 }
 
 .backround-por {
-  background-color: rgb(8, 221, 175);
+  background-color: rgb(106, 6, 236);
 }
 
-.pics {
+.backround-tra {
+  background-color: rgb(41, 223, 236);
+}
+
+.pics-about {
   margin-bottom: 3%;
 }
 
-.profolio-cards {
-  max-width: 50%;
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item .img-fluid {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+  width: 100%;
 }
 
 .card {
