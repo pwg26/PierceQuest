@@ -1,4 +1,5 @@
 # PierceQuest
+PierceQuest
 
 Descrtiption
 
@@ -10,7 +11,7 @@ Currently I am enrolled in the the University of Denver's coding bootcamp pursin
 
 Development
 
-To begin I started by sketching out a basic design of how I wanted each of my sub web pages to my site to look as well as their functionality. Next I created my intitial skeletal HTML files linked to bootstrap, and an asset folder with a universal CSS file and images. Following this intialization, I developed each HTML file primarly utilizing Bootsraps grid system with some CSS of my own to convey text, images, and components in an athetic, intuaitive and organized manner. After completing the first addition of each of my sub webdpages, I then spent the vast majority of the time adjusting, adding, and expirimenting with additional Bootsrap features until I was satified with the final product to present the user.
+To begin I started by sketching out a basic design of how I wanted each of the web pages to my site to look as well as their functionality. Next I created my intitial skeletal HTML files linked to bootstrap, and an asset folder with a universal CSS file and images. Following this intialization, I developed each HTML file primarly utilizing Bootsraps grid system with some CSS of my own to convey text, images, and components in an athetic, intuaitive and organized manner. After completing the first addition of each of my pages, I then spent the vast majority of the time adjusting, adding, and expirimenting with additional Bootsrap features until I was satified with the final product to present the user.
 
 Feaures/Usage
 
@@ -22,19 +23,19 @@ This website utilizes a variaty of Bootstrap features including:
 
     - Containers, rows, and coloumns to organize and globalize properties to my content.
 
-     <img src="assets/images/contain.jpg">
+     ![alt text](assets/images/contain.jpg)
 
     - A Nav Bar with links to direct the useer to different pages.
 
-    <img src="assets/images/nav.jpg">
+    ![alt text](assets/images/nav.jpg)
 
     - Other Bootstrap components such as cards, caurosels, and contact fourm submissions
 
-    <img src="assets/images/caro.jpg">
+    ![alt text](assets/images/caro.jpg)
 
     - Responsiveness in the layout, images, and components so the content can adjust to a variety of viewports.
 
-    <img src="assets/images/response.jpg"
+    ![alt text](assets/images/response.jpg)
 
 Foreward
 
