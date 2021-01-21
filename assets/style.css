@@ -1,10 +1,10 @@
 /* Home backround */
 .backround-home {
-  background: url(images/looking.jpg);
+  background: url(images/sitting.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 /* contact backround */
@@ -44,5 +44,9 @@
 /* formating in cards for profolio */
 .card {
   margin-top: 2%;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
+}
+
+a {
+  text-decoration: none;
 }
