@@ -22,19 +22,19 @@ This website utilizes a variaty of Bootstrap features including:
 
     - Containers, rows, and coloumns to organize and globalize properties to my content.
 
-     <img src="assets/images/contain.jpg" class="d-block img-fluid">
+     <img src="assets/images/contain.jpg">
 
     - A Nav Bar with links to direct the useer to different pages.
 
-    <img src="assets/images/nav.jpg" class="d-block img-fluid">
+    <img src="assets/images/nav.jpg">
 
     - Other Bootstrap components such as cards, caurosels, and contact fourm submissions
 
-    <img src="assets/images/caro.jpg" class="d-block img-fluid">
+    <img src="assets/images/caro.jpg">
 
     - Responsiveness in the layout, images, and components so the content can adjust to a variety of viewports.
 
-    <img src="assets/images/response.jpg" class="d-block img-fluid">
+    <img src="assets/images/response.jpg"
 
 Foreward
 
