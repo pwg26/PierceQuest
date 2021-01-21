@@ -47,6 +47,12 @@
   margin-bottom: 2%;
 }
 
+/* removes underline from a tag */
 a {
   text-decoration: none;
+}
+
+/* moves contact on nav bar to right */
+#rnav {
+  margin-left: auto;
 }
