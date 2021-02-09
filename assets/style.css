@@ -56,3 +56,8 @@ a {
 #rnav {
   margin-left: auto;
 }
+
+/* styleing of porfolio pics */
+.por-pic {
+  max-height: 180px;
+}
